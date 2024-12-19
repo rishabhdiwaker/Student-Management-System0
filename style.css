@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.detail{
+    margin: 0 43px;
+    padding-top: 30px;
+}
+.detail h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+.detail .box{
+    display: flex;
+    margin: 10px 0 0 0px;
+    flex-wrap: wrap;
+}
+.detail form input{
+    background-color: black;
+    margin: 0 25px 22px 0px; 
+    padding: 0px 12px;
+    width: 375px;
+    height: 35px;
+    border: 1px solid rgb(165, 162, 162);
+    color: rgb(196, 186, 186);
+}
+
+form #submitButton{
+    background-color: white;
+    width: 400px;
+    height: 35px;
+    color: black;
+    border-style: none;
+}
+form #submitButton:hover{
+    background-color: rgb(81, 139, 115);
+    color: black;
+    cursor: pointer;
+}
+.search-field h3{
+    margin: 0 43px;
+    color: white;
+    margin-top: 15px;
+}
+.search-field #searchInput{
+    background-color: black;
+    margin: 8px 43px 25px; 
+    padding: 0px 12px;
+    width: 90vw;
+    height: 35px;
+    border: 1px solid rgb(165, 162, 162);
+    color: rgb(196, 186, 186);
+}
+
+.list{
+    margin: 0 43px; 
+
+}
+table{
+    background-color: black;
+    width: 92vw;
+    border-collapse: collapse;
+    color: rgb(196, 186, 186);
+}
+.student-details h3{
+    color: white;
+    margin: 0 43px;
+    padding-bottom: 10px;
+}
+
+table th,td{
+    border: 1px solid rgb(165, 162, 162);
+    text-align: left;
+    padding: 0px 12px;
+}
+table td,th{
+    height: 35px;
+}
+p{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    color:rgb(165, 162, 162) ;
+}
+p i{
+    margin: -3px;
+    padding: 5px;
+    color:red;
+}

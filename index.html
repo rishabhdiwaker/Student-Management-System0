@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="detail">
+            <h1>Student Management System CRUD</h1>
+            <form id="studentForm" autocomplete="off">
+                <div class="box">
+                    <input type="text" name="name" id="nameInput" placeholder="Name" required>
+                    <input type="email" name="email" id="emailInput" placeholder="Email" required>
+                    <input type="number" name="age" id="ageInput" placeholder="Age" min="15" max="52" required>
+                    <input type="text" name="gpa" id="gradeInput" placeholder="GPA" required>
+                    <input type="text" name="degree" id="degreeInput" placeholder="Degree" required>
+                </div>
+                <div>
+                    <button type="submit" id="submitButton">Add Student</button>
+                </div>
+            </form>
+        </div>
+        <div class="search-field">
+            <h3>Search</h3>
+            <input type="text" name="search" id="searchInput" placeholder="Search by Name, email or degree">
+        </div>
+        <div class="student-details">
+            <table class="list" id="studentTable">
+                <h3>Student Details</h3>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Student Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                        <th>GPA</th>
+                        <th>Degree</th>
+                        <th>Edit / Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="studentTableBody">
+
+                </tbody>
+            </table>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Rishabh Diwaker</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
